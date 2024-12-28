@@ -23,7 +23,7 @@ public class Main {
             System.out.println("5. Thoát");
             System.out.print("Chọn một tùy chọn: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Đọc dòng trống
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -32,7 +32,7 @@ public class Main {
                     System.out.println("2. Xách Tay");
                     System.out.print("Chọn loại: ");
                     int typeChoice = scanner.nextInt();
-                    scanner.nextLine(); // Đọc dòng trống
+                    scanner.nextLine();
                     String phoneType = (typeChoice == 1) ? "Chính Hãng" : "Xách Tay";
 
                     // Kiểm tra ID điện thoại
